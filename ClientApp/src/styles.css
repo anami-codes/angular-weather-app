@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
   --at-bg-color: #ffffff;
+
+  --at-footer-border: #2574a5;
+  --at-footer-background: rgba(23, 95, 139, 0.4);
 }
 
 html[class~="dawn"] {
@@ -21,6 +24,11 @@ html[class~="night"] {
 
 body {
   background-color: var(--at-bg-color);
+  margin: 0;
+  
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 /* Provide sufficient contrast against white background */

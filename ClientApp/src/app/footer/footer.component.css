@@ -1,0 +1,12 @@
+footer {
+  display: block;
+  margin-top: auto;
+  padding: 10px 20px 10px 20px;
+  border-top: 1px solid var(--at-footer-border);
+  background-color: var(--at-footer-background);
+
+  text-align: center;
+  font-size: 10px;
+  line-height: 10px;
+
+}
