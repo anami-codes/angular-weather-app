@@ -1,4 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --at-bg-color: #ffffff;
+}
+
+html[class~="dawn"] {
+  --at-bg-color: rgb(133, 223, 235);
+}
+
+html[class~="day"] {
+  --at-bg-color: rgb(72, 188, 223);
+}
+
+html[class~="dusk"] {
+  --at-bg-color: rgb(212, 132, 39);
+}
+
+html[class~="night"] {
+  --at-bg-color: rgb(39, 38, 54);
+}
+
+body {
+  background-color: var(--at-bg-color);
+}
 
 /* Provide sufficient contrast against white background */
 a {
